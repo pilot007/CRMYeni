@@ -1469,7 +1469,7 @@
                         }
                     },
                     error: function (textStatus) {
-                        ShowNotificiation.Error("Hata", "Kullanıcı adı veya şifrenizi yanlış girdiniz.");
+                        ShowNotificiation.Error("Hata", textStatus + "  Kullanıcı adı veya şifrenizi yanlış girdiniz.");
                     }
                 });
             });
